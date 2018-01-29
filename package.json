@@ -1,16 +1,11 @@
 {
-  "name": "GIT-WEBPACK-COMPRESS-TOOL",
+  "name": "GIT-WEBPACK",
   "version": "1.0.0",
   "description": "",
   "main": "webpack.config.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    ""
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "devDependencies": {
-    "uglifyjs-webpack-plugin": "^1.1.6",
-    "webpack": "^3.10.0"
-  },  
   "repository": {
     "type": "git",
     "url": "git+https://github.com/telkea/webpack-compress-tool.git"
@@ -21,5 +16,12 @@
   "bugs": {
     "url": "https://github.com/telkea/webpack-compress-tool/issues"
   },
-  "homepage": "https://github.com/telkea/webpack-compress-tool#readme"
+  "homepage": "https://github.com/telkea/webpack-compress-tool#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.1",
+    "uglifyjs-webpack-plugin": "^1.1.6",
+    "webpack": "^3.10.0"
+  }
 }
