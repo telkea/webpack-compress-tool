@@ -5,7 +5,8 @@
   "main": "webpack.config.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "add:commit": "git commit -a -m 'webpack'"
+    "git:commit": "git commit -a -m 'webpack'",
+    "git:push": "git push origin master"
   },
   "repository": {
     "type": "git",
